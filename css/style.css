@@ -29,9 +29,6 @@ header{
     align-items: center;
 }
 
-nav.navbar ul.nav li {
-    color: #ff0;
-}
 footer{
     background-color: #00438a;
     padding: 10px 0 10px 0;
