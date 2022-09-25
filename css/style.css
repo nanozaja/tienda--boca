@@ -21,7 +21,6 @@ header{
 
 .azulBoca{
     background-color: #00438a;
-    color: #ff0;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
     padding: 10px;
@@ -30,6 +29,9 @@ header{
     align-items: center;
 }
 
+.navbar.navbar-default ul li a:hover {
+    color: #ff0;
+}
 footer{
     background-color: #00438a;
     padding: 10px 0 10px 0;
