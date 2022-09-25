@@ -21,10 +21,13 @@ header{
 
 .azulBoca{
     background-color: #00438a;
+    color: #ff0;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
     padding: 10px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 footer{
