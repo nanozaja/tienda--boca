@@ -19,6 +19,10 @@ header{
     border-bottom: 3px solid black;
 }
 
+.azulBoca{
+    background-color: #00438a;
+}
+
 footer{
     background-color: #00438a;
     padding: 10px 0 10px 0;
