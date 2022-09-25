@@ -21,6 +21,9 @@ header{
 
 .azulBoca{
     background-color: #00438a;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    padding: 10px;
 }
 
 footer{
