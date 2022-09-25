@@ -29,9 +29,10 @@ header{
     align-items: center;
 }
 
-.navbar ul li a:hover {
+.container-fluid header nav ul li a{
     color: #ff0;
 }
+
 footer{
     background-color: #00438a;
     padding: 10px 0 10px 0;
