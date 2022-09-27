@@ -18,24 +18,28 @@
             <a href="../index.html">
                 <img src="../img/Boca_escudo.png" alt="logo__header" class="logo__header">
             </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <!-- uso style en el ancla ya que no logré modificar la class nav-link -->
                     <li class="nav-item">
-                        <a class="nav-link active" style="color: #ff0" aria-current="page"
+                        <a class="nav-link active" id="color_ancla" aria-current="page"
                             href="../index.html">Inicio</a>
                     </li>
-                    <li class="nav-item ">
-                        <a class="nav-link active" style="color: #ff0" aria-current="page" href="club.html">El Club</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link active" style="color: #ff0" href="tienda.html">Tienda</a>
+                    <li class="nav-item">
+                        <a class="nav-link active" id="color_ancla" aria-current="page" href="club.html">El Club</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" style="color: #ff0" href="perfil.html">Perfil</a>
+                        <a class="nav-link active" id="color_ancla" href="tienda.html">Tienda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" style="color: #ff0" href="contacto.html">Contacto</a>
+                        <a class="nav-link active" id="color_ancla" href="perfil.html">Perfil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" id="color_ancla" href="contacto.html">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -51,27 +55,26 @@
     </section>
 
     <section class="container-fluid">
-        <!-- somos dos columnas -->
         <div>
             <img src="../img/elclub_historiia.png" alt="" class="img-fluid">
         </div>
     </section>
-    <footer class="footerFlex">
+    <footer class="footerFlex col-lg-12 col-md-12 col-sm-12">
         <div class="container">
             <div class="row">
-                <div class="col-4 d-flex justify-content-start">
+                <div class="col-lg-4 col-md-2 col-sm-4 d-flex justify-content-center">
                     <a href="../index.html">
                         <img class="logo__footerFlex" src="../img/Boca_escudo.png" alt="">
                     </a>
                 </div>
-                <div class="col-4 d-flex align-items-center">
-                    <h5 class="display-8 text-center">
+                <div class="col-lg-4 col-md-2 col-sm-4 d-flex align-items-center">
+                    <h5 class="text-center">
                         Tu pasión crece. Nosotros te acompañamos.
                     </h5>
                 </div>
-                <div class="col-4 d-flex justify-content-end">
+                <div class="col-lg-4 col-md-2 col-sm-4 d-flex justify-content-end">
                     <div>
-                        <h5>
+                        <h5 class="text-center">
                             ¡Seguinos!
                         </h5>
                         <div class="divFooter">

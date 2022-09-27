@@ -19,48 +19,6 @@ header{
     border-bottom: 3px solid black;
 }
 
-.azulBoca{
-    background-color: #00438a;
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.footerFlex{
-    display: flex;
-    flex-direction: row;
-    object-fit: fill;
-    max-height: 92px;
-}
-
-.divFooter{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.columnFooter1{
-    width: 33%;
-    text-align: center;
-}
-
-.columnFooter2{
-    width: 33%;
-    text-align: center;
-    align-items: center;
-}
-
-.columnFooter3{
-    width: 33%;
-}
-
-.logo__footerFlex{
-    max-width: 70px;
-    max-height: 70px;
-}
-
 footer{
     background-color: #00438a;
     padding: 10px 0 10px 0;
@@ -142,13 +100,6 @@ h4{
     margin-right: 10px;
 }
 
-h5{
-    color: #ff0;
-    text-align: center;
-    font-size: 18px;   
-    font-weight: bold;
-
-}
 .div__redes{
     padding-right: 70px;
 }
@@ -184,7 +135,7 @@ h5{
 
 .sub {
     text-decoration: underline;
-  }
+}
 
 .input__login { 
     font-family: 'Roboto', sans-serif;
@@ -294,3 +245,41 @@ a:visited{
     height: 30px;
 }
 
+/* nuevas clases para la segunda pre-entrega */
+.azulBoca{
+    background-color: #00438a;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerFlex{
+    display: flex;
+    flex-direction: row;
+    object-fit: fill;
+    max-height: 92px;
+}
+
+.divFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo__footerFlex{
+    max-width: 70px;
+    max-height: 70px;
+}
+
+h5{
+    color: #ff0;
+    font-size: 18px;   
+    font-weight: bold;
+}
+
+#color_ancla{
+    color: #ff0;
+}
