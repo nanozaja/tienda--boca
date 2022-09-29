@@ -23,10 +23,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <!-- uso style en el ancla ya que no logré modificar la class nav-link -->
                     <li class="nav-item">
-                        <a class="nav-link active" id="color_ancla" aria-current="page"
-                            href="../index.html">Inicio</a>
+                        <a class="nav-link active" id="color_ancla" aria-current="page" href="../index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" id="color_ancla" aria-current="page" href="club.html">El Club</a>
@@ -45,66 +43,51 @@
         </div>
     </nav>
 
-    <section>
-        <div class="col-lg-12 col-md-6 col-sm-12">
-            <h2 class="display-8 text-center">
-                Dejanos tu mensaje.
-            </h2>
-        </div>
-    </section>
+    <div class="div__club">
+        <section>
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <h2 class="display-8 text-center">
+                    Dejanos tu mensaje.
+                </h2>
+            </div>
+        </section>
 
-    <form>
-        <div>
-            <div class="div__label">
-                <label for="input_nombre" id="lbl_nombre" class="label__login">
+        <form class="mb-3">
+            <div class="col-auto">
+                <label for="input_nombre" id="lbl_nombre" class="form-label">
                     Nombre y Apellido
                 </label>
+                <input id="input_nombre" type="" class="form-control" placeholder="Ingresa tu nombre y apellido">
             </div>
-            <div class="div__input">
-                <input id="input_nombre" type="" class="input__contacto" placeholder="Ingresa tu nombre y apellido">
-            </div>
-        </div>
-        <div>
-            <div class="div__label">
-                <label for="input_email" id="lbl_email" class="label__login">
+            <div class="col-auto">
+                <label for="input_email" id="lbl_email" class="form-label">
                     Email
                 </label>
+                <input id="input_nombre" type="" class="form-control" placeholder="Ingresa tu email">
             </div>
-            <div class="div__input">
-                <input id="input_nombre" type="" class="input__contacto" placeholder="Ingresa tu email">
-            </div>
-        </div>
-        <div>
-            <div class="div__label">
-                <label for="input_tel" id="lbl_tel" class="label__login">
+            <div class="col-auto">
+                <label for="input_tel" id="lbl_tel" class="form-label">
                     Teléfono
                 </label>
+                <input id="input_tel" type="" class="form-control" placeholder="Ingresa tu teléfono">
             </div>
-            <div class="div__input">
-                <input id="input_tel" type="" class="input__contacto" placeholder="Ingresa tu teléfono">
-            </div>
-        </div>
-        <div>
-            <div class="div__label">
-                <label for="input_tel" id="lbl_tel" class="label__login">
+            <div class="col-auto">
+                <label for="input_tel" id="lbl_tel" class="form-label">
                     Mensaje
                 </label>
-            </div>
-            <div class="div__input">
-                <textarea id="txt_mensaje" type="" class="input__mensaje" cols="40" rows="5"
-                    placeholder="Ingresa un mensaje">
+                <textarea id="txt_mensaje" type="" class="form-control" placeholder="Ingresa un mensaje">
                 </textarea>
             </div>
-        </div>
-    </form>
-    <div>
-        <a href="../index.html">
-            <button class="btn__redondeado" id="btn_enviar">
-                Enviar
-            </button>
-        </a>
+            <div class="col-auto">
+                <a href="../index.html">
+                    <button class="btn btn-primary btn__redondeado2" id="btn_enviar">
+                        Enviar
+                    </button>
+                </a>
+            </div>
+        </form>
     </div>
-    <footer class="footerFlex col-lg-12 col-md-6 col-sm-12">
+    <footer class="footerFlex col-lg-12 col-md-12 col-sm-12">
         <div class="container">
             <div class="row">
                 <div class="col-4 d-flex justify-content-start">
@@ -118,7 +101,7 @@
                     </h5>
                 </div>
                 <div class="col-4 d-flex justify-content-end">
-                    <div>
+                    <div class="justify-content-center">
                         <h5 class="text-center">
                             ¡Seguinos!
                         </h5>
