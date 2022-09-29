@@ -180,13 +180,19 @@ a:visited{
 
 .div__marco{
     display: inline-block; 
+    color: #ff0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
     width: 170px;
     height: 270px;    
     border-style: solid;
     border-color: #ff0;
     border-radius: 10%;
     margin-left: 65px;
+    margin-top: 35px;
 }
+
 .div__foto{
     margin: 10px;
     object-fit: contain;
