@@ -23,7 +23,7 @@ footer{
     background-color: #00438a;
     padding: 10px 0 10px 0;
     display: flex;
-    position: absolute;
+    position: fixed;
     width: 100%;
     bottom: 0;
     border-top: 3px solid black;
@@ -266,6 +266,10 @@ h5{
 
 @media (min-width: 768px){
 
+    .footer{
+        position: absolute;
+    }
+
     .mis__redes{
     max-width: 30px;
     max-height: 30px;
@@ -321,7 +325,11 @@ h5{
         margin-left: 20%;
         margin-top: 10px;
     }
-    
+
+    .footer{
+        position: absolute;
+    }
+
     .form-control{
         width: 400px;
         height: 30px;
